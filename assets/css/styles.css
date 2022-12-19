@@ -25,12 +25,6 @@ nav ul li a {
     color: var(--green) !important;
 }
 
-nav ul li:nth-child(2),
-nav ul li:nth-child(3) {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 nav ul li:hover {
     text-decoration: underline;
 }
@@ -56,6 +50,11 @@ main {
     text-shadow: 0 0 10px rgb(0 0 0 / 70%);
 }
 
+.carousel-item button a {
+    text-decoration: none;
+    color: white;
+}
+
 #carousel h3 {
     font-size: 30px;
 }
@@ -73,11 +72,15 @@ main {
     margin: 0 auto;
 }
 
-#about h2 {
+#about h2,
+#partnership h3,
+#mission h3 {
     color: var(--green)
 }
 
-#about p {
+#about p,
+#partnership p,
+#mission p {
     color: #444444;
     font-size: 20px;
 }
@@ -113,7 +116,8 @@ body {
     margin-bottom: 10px;
 }
 
-#partnership h3 {
+#partnership h3,
+#mission h3 {
     font-size: 32px;
 }
 
